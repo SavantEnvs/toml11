@@ -1,0 +1,21 @@
+int_dec = +99
+int_hex = 0xDEAD_beef
+int_oct = 0o755
+int_bin = 0b11010110
+float_a = 6.626e-34
+float_b = -0.0
+float_inf = inf
+float_nan = -nan
+str_basic = "tab\tquote\" \u00E9 \U0001F600"
+str_lit = 'C:\Users\nodejs\templates'
+str_ml = """
+Roses are red
+Violets are \
+   blue"""
+str_ml_lit = '''
+first
+ second'''
+date = 1979-05-27
+time = 07:32:00.999999
+ldt = 1979-05-27T07:32:00
+odt = 1979-05-27 00:32:00.5+09:30

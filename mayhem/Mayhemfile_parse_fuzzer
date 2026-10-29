@@ -1,0 +1,10 @@
+project: savantenvs/toml11
+target: parse_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/parse_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/parse_fuzzer
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/parse_fuzzer/parse_fuzzer.dict
+    timeout: 10

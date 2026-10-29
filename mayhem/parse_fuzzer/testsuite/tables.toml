@@ -1,0 +1,12 @@
+a.b.c = 1
+"quoted key" . 'lit key' = [1, "two", 3.0, [4], {five = 5}]
+[x.y]
+z = { k = "v", n = { m = [] } }
+[[arr]]
+id = 1
+[[arr]]
+id = 2
+[arr.sub]
+flag = false
+[[arr.list]]
+name = "first"

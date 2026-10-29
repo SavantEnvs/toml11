@@ -1,0 +1,11 @@
+esc = "\e[1mbold\x1b[0m \x41"
+t = { a = 1,
+      b = 2,
+    }
+time_no_sec = 07:32
+dt_no_sec = 1979-05-27T07:32Z
+# comment with control-free text
+arr = [
+  1, # one
+  2,
+]

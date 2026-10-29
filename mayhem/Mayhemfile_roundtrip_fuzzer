@@ -1,0 +1,10 @@
+project: savantenvs/toml11
+target: roundtrip_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/roundtrip_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/roundtrip_fuzzer
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/roundtrip_fuzzer/roundtrip_fuzzer.dict
+    timeout: 10
